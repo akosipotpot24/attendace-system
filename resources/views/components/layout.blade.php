@@ -44,6 +44,10 @@
                     <option value="{{ url('/regcllrc') }}">Student Registration (COLLEGE)</option>
                 </select>
             </div>
+            <div class="mr-3">
+                <a href="/sectionList" class="btn btn-light">Sections</a>
+            </div>
+
 
             <div class="mr-3">
                 <a href="/stats" class="btn btn-success">Enter Statistics</a>
