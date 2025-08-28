@@ -19,8 +19,8 @@
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" />
 
-    <!-- Font Awesome -->
-    <script defer src="https://kit.fontawesome.com/59a89e2849.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome 7 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('main.css') }}" />
@@ -45,7 +45,7 @@
                 </select>
             </div>
             <div class="mr-3">
-                <a href="/sectionList" class="btn btn-light">Sections</a>
+                <a href="/createSection" class="btn btn-light">Sections</a>
             </div>
 
 

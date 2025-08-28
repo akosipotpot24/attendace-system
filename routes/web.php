@@ -41,7 +41,19 @@ Route::get('/stats', function () {
 Route::get('/userreg', function () {
     
     return view('registration/UserRegister');
-});
+})->middleware('auth');
+
+Route::get('/viewlist', function () {
+    
+    return view('sections/list');
+})->middleware('auth');
+
+
+Route::get('/createSection', function () {
+    
+    return view('sections/newsection');
+})->middleware('auth');
+
 
 
 
